@@ -1,0 +1,14 @@
+const int DRIVE_PIN = 9;    
+void setup()
+{
+  
+  pinMode(DRIVE_PIN, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(DRIVE_PIN, HIGH);
+  delay(50);                  
+  digitalWrite(DRIVE_PIN, LOW);
+  delay(50);                 
+}
